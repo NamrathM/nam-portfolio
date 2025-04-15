@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useTheme } from "./theme-provider";
 import { ThemeToggle } from "./theme-toggle";
 import { cn } from "@/lib/utils";
+import { FaWhatsapp } from "react-icons/fa"; // Import WhatsApp icon
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -20,6 +21,8 @@ export function Navbar() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const whatsappLink = "https://wa.me/919182420813";
 
   return (
     <header
@@ -55,6 +58,15 @@ export function Navbar() {
           )}
         </nav>
         <div className="flex items-center space-x-4">
+          <a
+            href={whatsappLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 rounded-full hover:bg-muted transition-colors hover:text-[#25D366] dark:text-white dark:hover:text-[#25D366]"
+            aria-label="WhatsApp"
+          >
+            <FaWhatsapp className="h-5 w-5" />
+          </a>
           <ThemeToggle />
           <a
             href="#contact"
