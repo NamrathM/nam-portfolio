@@ -49,7 +49,7 @@ export function ExperienceSection() {
                 <ExperienceCard
                   company="NexaDev"
                   role="Full Stack Developer"
-                  period="2021 - 2023"
+                  period="Jan 2025 - Present"
                   description="Developed a comprehensive cab booking platform handling over 500 daily transactions with real-time tracking and payment integration."
                   isLeft={true}
                   isVisible={visibleItems[0]}
@@ -60,7 +60,7 @@ export function ExperienceSection() {
                 <ExperienceCard
                   company="VelocitiQ Technologies"
                   role="UI/UX Team Lead"
-                  period="2023 - Present"
+                  period="July 2024 - Aug 2024"
                   description="Led the redesign of the company's main website, resulting in a 40% increase in user engagement and a 25% reduction in bounce rate."
                   isLeft={false}
                   isVisible={visibleItems[1]}
@@ -71,8 +71,8 @@ export function ExperienceSection() {
                 <ExperienceCard
                   company="DOT – The Design Club"
                   role="Team Member"
-                  period="2020 - 2021"
-                  description="Collaborated on multiple design projects including brand identities and UI/UX improvements, focusing on accessibility and user-centered design."
+                  period="Dec 2021 - May 2025"
+                  description="Collaborated on multiple design projects including club identities and UI/UX improvements, focusing on accessibility and user-centered design."
                   isLeft={true}
                   isVisible={visibleItems[2]}
                 />
