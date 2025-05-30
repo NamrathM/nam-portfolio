@@ -60,7 +60,7 @@ export function AboutSection() {
 
             {/* Resume Button */}
             <a
-              href="Nam_Resume.pdf"
+              href="Resume_Nam.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 text-transparent bg-portfolio-background border-2 border-white rounded-lg shadow-md transition-all duration-300 hover:shadow-[0_0_10px_3px_rgba(255,215,0,0.6)] hover:scale-105 bg-gradient-to-r from-teal-400 to-teal-600 bg-clip-text"
